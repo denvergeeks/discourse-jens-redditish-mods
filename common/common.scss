@@ -1,51 +1,51 @@
 /* Global Tweaks */
 
 img#site-logo.logo-small {
-    border-radius: 50%;
-    background-color: #000;
-    -webkit-box-shadow: 0px 1px 10px 0px rgba(130,130,130,1);
-    -moz-box-shadow: 0px 1px 10px 0px rgba(130,130,130,1);
-    box-shadow: 0px 1px 10px 0px rgba(130,130,130,1);
+    border-radius: 50% !important;
+    background-color: #000 !important;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(130,130,130,1) !important;
+    -moz-box-shadow: 0px 1px 10px 0px rgba(130,130,130,1) !important;
+    box-shadow: 0px 1px 10px 0px rgba(130,130,130,1) !important;
 }
 .d-modal.create-account .login-welcome-header {
-  padding: 1em;
+  padding: 1em !important;
 }
 .d-modal.create-account .login-welcome-header {
-  padding: 2em 1em .5em 2em;
+  padding: 2em 1em .5em 2em !important;
 }
 
 /*Sidebar Theme Toggle */
 .sidebar-theme-toggle-dropdown.select-kit.combo-box .select-kit-header .select-kit-header-wrapper {
-    margin-left: -1em;
-    width: max-content;
+    margin-left: -1em !important;
+    width: max-content !important;
 }
 .sidebar-theme-toggle-dropdown.select-kit.combo-box .select-kit-header {
-    padding-left: 2.8em;
+    padding-left: 2.8em !important;
 }
 .sidebar-theme-toggle__wrapper {
-    padding-right: 0.2em;
+    padding-right: 0.2em !important;
 }
 .sidebar-theme-toggle__wrapper>.d-icon {
-    left: 0.5em;
+    left: 0.5em !important;
 }
 .sidebar-theme-toggle-dropdown {
-    outline: 2px solid #32CD32;
+    outline: 2px solid #32CD32 !important;
 }
 
 /* Move Topic Edit to Top Right Corner Fixed */
 #post_1 nav.post-controls .actions button.edit {
-    position: fixed;
-    top: 80px;
-    right: 0;
+    position: fixed !important;
+    top: 80px !important;
+    right: 0 !important;
     background: rgba(0,0,0,0) !important;
-    box-shadow: none;
-    padding: 30px 10px 30px 20px;
-    margin: 0 0 0 0;
+    box-shadow: none !important;
+    padding: 30px 10px 30px 20px !important;
+    margin: 0 0 0 0 !important;
 }
 #post_1 nav.post-controls .actions button.edit .svg-icon {
-    height: 2em;
-    width: 2em;
-    fill: rgba(0,154,73,.3098039216);
-    transform: rotate(-0.125turn);
-    filter: none;
+    height: 2em !important;
+    width: 2em !important;
+    fill: rgba(0,154,73,.3098039216) !important;
+    transform: rotate(-0.125turn) !important;
+    filter: none !important;
 }
