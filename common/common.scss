@@ -49,3 +49,42 @@ img#site-logo.logo-small {
     transform: rotate(-0.125turn) !important;
     filter: none !important;
 }
+
+/* Inline Footnotes - Replace ellipsis with numbers */
+.cooked.inline-footnotes {
+  counter-reset: foot-note;
+}
+
+.inline-footnotes a.expand-footnote {
+  text-decoration: none !important;
+  font-size: 0.77em;
+  vertical-align: super;
+  min-height: unset;
+  border: 1px solid var(--primary-medium);
+  padding: 0 0.4em;
+  vertical-align: super;
+}
+
+.inline-footnotes a.expand-footnote:before {
+    counter-increment: foot-note;
+    content: counter(foot-note);
+}
+
+.inline-footnotes a.expand-footnote svg {
+  display: none;
+}
+
+/* everything below is some extra customization */
+
+#footnote-tooltip {
+  border: 1px solid var(--primary-medium);
+}
+
+#footnote-tooltip #arrow:before {
+  border-top: 1px solid var(--primary-medium);
+  border-left: 1px solid var(--primary-medium);
+}
+
+#footnote-tooltip[data-popper-placement^=bottom]>#arrow {
+  top: -6px !important;
+}
