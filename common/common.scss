@@ -89,8 +89,11 @@ img#site-logo.logo-small {
   top: -6px !important;
 }
 
-
-
+/* Fix for Topic List Item Click Animation */
+.topic-list-item:hover,
+.latest-topic-list-item:hover {
+    cursor: pointer;
+}
 
 
 
