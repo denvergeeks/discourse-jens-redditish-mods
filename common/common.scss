@@ -498,3 +498,45 @@ div.composer-help-content img {
     padding: 0;
     display: inline;
 }
+
+/* Otter.ai Embeds */
+
+div[data-theme-otter] {
+  overflow:hidden;
+  box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
+  border-radius: 4px;
+  border-top: 10px solid #fff;
+  border-right: 10px solid #fff;
+  border-bottom: 3px solid #fff;
+  padding-top: 30px;
+}
+
+.cooked div[data-theme-otter] {
+  iframe {
+        box-shadow: none !important;
+  }
+}
+
+div[data-theme-otter] {
+  iframe {
+        margin: -90px 0 0;
+        height: 440px !important;
+  }
+}
+
+/* OTHER MISC */
+
+[data-theme="jonebox"] {
+    border: 5px solid var(--primary-low);
+    margin: 1em 0;
+    padding: 1em;
+    font-size: var(--font-0);
+    background: var(--secondary);
+    width: 40%;
+}
+
+div[data-theme-hide-details] {
+  details {
+    display: none;
+  }
+}
