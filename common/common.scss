@@ -310,8 +310,10 @@ div[data-theme-boxed-5] {
     border-radius: 4px;
 }
 
-
-
+/* Composer Help Button Plugin */
+#composer-help-modal .composer-help-content {
+    padding-right: 15px;
+}
 
 div.composer-help-content img {
     max-width: 100%;
