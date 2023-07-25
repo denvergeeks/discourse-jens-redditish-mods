@@ -11,7 +11,7 @@ body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
   body.has-sidebar-page.tags-page #main-outlet-wrapper,
   body.has-sidebar-page[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
   body.has-sidebar-page[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
-    grid-template-columns: auto 1fr minmax(0, 640px) 1fr auto;
+    grid-template-columns: auto 1fr minmax(0, 640px) 1fr auto !important;
   }
 }
 
