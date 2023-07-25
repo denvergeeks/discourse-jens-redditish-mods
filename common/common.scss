@@ -9,3 +9,6 @@ body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
   grid-template-columns: var(--d-sidebar-width) 1fr minmax 312px 1fr var(--d-sidebar-width);
  }
 }
+.custom-right-sidebar {
+    margin-top: 1.25em !important;
+}
