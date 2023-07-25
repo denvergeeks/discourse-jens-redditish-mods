@@ -2,6 +2,11 @@ body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr;
 }
 
+@media screen and (max-width: 1160px) {
+gap: 0 !important;
+ }
+}
+
 @media screen and (max-width: 1425px) {
 body.tags-page #main-outlet-wrapper,
 body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
