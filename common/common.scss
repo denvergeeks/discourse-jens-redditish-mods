@@ -8,11 +8,11 @@
   }
 /* } */
 
-@media screen and (min-width: 1160.01px) {
+/* @media screen and (min-width: 1160.01px) { */
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
   }
-}
+/* } */
 
 
 
