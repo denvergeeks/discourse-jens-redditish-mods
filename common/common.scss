@@ -1,7 +1,7 @@
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 768px) {
 body.tags-page #main-outlet-wrapper,
 body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
 body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
