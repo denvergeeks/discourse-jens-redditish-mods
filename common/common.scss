@@ -1,11 +1,6 @@
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
 }
-body.tags-page #main-outlet-wrapper,
-body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
-body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
-  grid-template-columns: unset !important;
-}
 
 @media screen and (max-width: 1160px) {
   body.has-sidebar-page.tags-page #main-outlet-wrapper,
@@ -15,7 +10,11 @@ body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
   }
 }
 
-grid-template-columns: auto 1fr minmax(0, 640px) 1fr auto;
+body.tags-page #main-outlet-wrapper,
+body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
+body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
+  grid-template-columns: unset !important;
+}
 
 .mobile-view .custom-right-sidebar {
   margin-top: 1.25em !important;
