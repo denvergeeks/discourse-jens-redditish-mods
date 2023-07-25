@@ -6,7 +6,7 @@ body.has-sidebar-page[class*=category-]:not([class*=archetype-]) #main-outlet-wr
   }
 }
 
-body.has-sidebar-page #main-outlet-wrapper.category {
+body.has-sidebar-page.category #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
 }
 
