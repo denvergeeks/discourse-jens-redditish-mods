@@ -1,20 +1,13 @@
 
-/*
-@media screen and (max-width: 1160px) {
   body.has-sidebar-page.tags-page #main-outlet-wrapper,
   body.has-sidebar-page[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
   body.has-sidebar-page[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
-    grid-template-columns: auto 1fr minmax(0, 640px) 1fr auto !important;
+    grid-template-columns: var(--d-sidebar-width) 1fr minmax(0, 640px) 312px 1fr !important;
   }
-}
 
-@media screen and (max-width: 2400px) {
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
   }
-} 
-*/
-
 
 .mobile-view .custom-right-sidebar {
   margin-top: 1.25em !important;
