@@ -10,11 +10,13 @@ body.has-sidebar-page #main-outlet-wrapper {
   }
 }
 
+/*
 body.tags-page #main-outlet-wrapper,
 body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
 body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
   grid-template-columns: unset !important;
 }
+*/
 
 .mobile-view .custom-right-sidebar {
   margin-top: 1.25em !important;
