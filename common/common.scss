@@ -1,10 +1,10 @@
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr;
 }
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) { */
 body.tags-page #main-outlet-wrapper,
 body[class*=navigation-]:not([class*=archetype-]) #main-outlet-wrapper,
 body[class*=category-]:not([class*=archetype-]) #main-outlet-wrapper {
   grid-template-columns: var(--d-sidebar-width) 1fr minmax 312px 1fr var(--d-sidebar-width);
-  }
+  /* } */
 }
