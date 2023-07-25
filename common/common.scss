@@ -5,9 +5,11 @@ body.has-sidebar-page[class*=category-]:not([class*=archetype-]) #main-outlet-wr
   grid-template-columns: var(--d-sidebar-width) 1fr minmax(0, auto) 312px 1fr !important;
 }
 
+/*
 body.has-sidebar-page #main-outlet-wrapper {
   grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
 }
+*/
 
 .mobile-view .custom-right-sidebar {
   margin-top: 1.25em !important;
