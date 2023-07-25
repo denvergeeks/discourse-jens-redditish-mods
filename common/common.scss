@@ -6,7 +6,7 @@
   }
 
 body.has-sidebar-page #main-outlet-wrapper {
-  grid-template-columns: 6fr minmax(0, var(--d-max-width)) 1fr !important;
+  grid-template-columns: auto minmax(0, var(--d-max-width)) 1fr !important;
   }
 
 .mobile-view .custom-right-sidebar {
